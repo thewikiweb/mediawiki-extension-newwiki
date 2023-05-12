@@ -1,0 +1,38 @@
+{
+    "name": "NewWiki",
+    "version": "1.0.0",
+    "author": [
+        {
+            "name": "WikiWeb",
+            "email": "tylermageeshields@gmail.com"
+        }
+    ],
+    "description": "Wiki farm extension",
+    "license-name": "MIT",
+    "type": "mediawiki",
+    "autoload": {
+        "psr-4": {
+            "NewWiki\\": "."
+        }
+    },
+    "config": {
+        "NewWikiSelectCategory": {
+            "description": "Categorize wikis.",
+            "type": "boolean",
+            "default": true
+        }
+    },
+    "specialpagealiases": {
+        "en": {
+            "WikiwebRequest": [
+                "Request a wiki"
+            ],
+            "WikiwebRequestQueue": [
+                "Request Queue"
+            ],
+            "WikiwebCreate": [
+                "Create a wiki"
+            ]
+        }
+    }
+}
