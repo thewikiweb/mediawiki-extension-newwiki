@@ -20,7 +20,7 @@ $wgSpecialPages['WikiwebCreate'] = 'SpecialWikiwebCreate';
 
 class SpecialWikiwebRequest extends SpecialPage {
     public function __construct() {
-        parent::__construct( 'WikiwebRequest' );
+        parent::__construct( 'NewWiki' );
     }
 
     public function execute( $par ) {
@@ -32,7 +32,7 @@ class SpecialWikiwebRequest extends SpecialPage {
 
 class SpecialWikiwebRequestQueue extends SpecialPage {
     public function __construct() {
-        parent::__construct( 'WikiwebRequestQueue' );
+        parent::__construct( 'NewWikiQueue' );
     }
 
     public function execute( $par ) {
@@ -44,7 +44,7 @@ class SpecialWikiwebRequestQueue extends SpecialPage {
 
 class SpecialWikiwebCreate extends SpecialPage {
     public function __construct() {
-        parent::__construct( 'WikiwebCreate' );
+        parent::__construct( 'NewWikiCreate' );
     }
 
     public function execute( $par ) {
