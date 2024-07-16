@@ -7,7 +7,7 @@
             "email": "tylermageeshields@gmail.com"
         }
     ],
-    "description": "Wiki farm extension",
+    "description": "Allows the creation of new wikis, effectively forming a wiki-host or farm.",
     "license-name": "MIT",
     "type": "mediawiki",
     "autoload": {
